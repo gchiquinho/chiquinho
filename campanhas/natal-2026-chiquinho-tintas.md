@@ -110,6 +110,7 @@ Os stories são diários (enquetes, bastidores e produtos). A tabela traz só os
 > Salva o post para levar na loja 📌
 
 ### P3 — Carrossel "Quanto de tinta eu preciso?" (06/12)
+**Arte no Canva (identidade verde da marca):** https://canva.link/0u5s11v370ga0tf — falta inserir a logo no topo da capa.
 - **Capa:** "Pare de comprar tinta a mais (ou a menos)"
 - **Lâmina 2:** meça a largura × altura de cada parede e some tudo.
 - **Lâmina 3:** desconte portas (~1,6 m² cada) e janelas (meça cada uma).

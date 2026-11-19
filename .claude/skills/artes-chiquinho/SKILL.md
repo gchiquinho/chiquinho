@@ -7,10 +7,34 @@ description: Cria as artes (imagens PNG) das campanhas e posts da Chiquinho Tint
 
 Gera artes prontas para Instagram, Facebook e WhatsApp a partir de um **roteiro JSON**: você escreve o texto de cada slide, escolhe o modelo, e o script desenha tudo com a identidade visual da loja e confere se o texto cabe.
 
+## Dois caminhos
+
+1. **Canva (preferido para peças de campanha)** — quando o conector do Canva estiver disponível. Gera artes mais ricas (ilustrações, pinceladas, elementos de Natal) e o usuário pode ajustar no próprio Canva. Ver "Fluxo no Canva".
+2. **Script local (`render.mjs`)** — para peças simples e repetitivas (avisos, stories de contagem, cabeçalho de WhatsApp) ou quando não houver Canva.
+
+Nos dois casos, siga a identidade da loja em **`marcas.md`** (logo, cores, tipografia de cada loja do grupo).
+
+## Fluxo no Canva
+
+1. `list-brand-kits` — se existir kit da loja, passe o `brand_kit_id` no `create-design`.
+2. Logo: procure nos Uploads do Canva (`logo-<loja>`). Se não houver, peça o arquivo ao usuário (PNG) e envie com `create-upload-url`. Passe o id em `references`. Nunca peça para a IA "desenhar" a logo.
+3. `create-design` com `format: "Instagram Post (Portrait)"` (ou `"Instagram Story"`) e um `brief` que tenha:
+   - a identidade da loja copiada de `marcas.md` (cores com hex, tipografia, símbolo);
+   - **todos os textos exatos, página por página** (o Canva não deve inventar texto);
+   - as proibições: sem preços inventados, sem logos de fabricantes, sem fotos de pessoas, usar "×" e não emoji.
+4. Aguarde o job (`get-create-design-async-job`, respeitando `wait_seconds`) e confira **cada página** com `read-design` (thumbnails + texto). A IA do Canva costuma errar:
+   - palavras trocadas (ex.: "Desconto" no lugar de "Desconte");
+   - símbolos virando emoji (ex.: "❎" no lugar de "×");
+   - cor dominante fora da marca.
+   Corrija com `read-design` (`open_transaction`) + `edit-design` (`find_and_replace_text`), mostre a prévia ao usuário e só faça `commit` com o "ok" dele.
+5. Guarde o link do design no plano da campanha (seção da peça).
+
 ## Arquivos
 
 | Arquivo | Para quê |
 |---|---|
+| `marcas.md` | Logo, cores e tipografia de **cada loja** do grupo |
+| `logos/` | Arquivos oficiais das logos (`<loja>.png`) |
 | `identidade.json` | Cores, fonte, @ do Instagram, cidade, WhatsApp e endereço. **Fonte única da identidade** — mude aqui, todas as artes mudam |
 | `scripts/modelos.mjs` | Os modelos (layout + CSS) |
 | `scripts/render.mjs` | Gera os PNGs e a `_previa.png` com todas as artes lado a lado |

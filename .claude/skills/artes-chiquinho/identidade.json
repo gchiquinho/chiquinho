@@ -5,15 +5,25 @@
   "whatsapp": "",
   "endereco": "",
   "cores": {
-    "fundo": "#1d1d1f",
+    "fundo": "#0b4a1c",
     "fundo_claro": "#f6f3ee",
-    "caixa": "#2a2a2d",
-    "destaque": "#ff6a1a",
+    "caixa": "#12602a",
+    "destaque": "#ffc20e",
     "texto": "#ffffff",
-    "texto_escuro": "#1d1d1f",
-    "secundario": "#a1a1a6",
-    "linha": "#3a3a3d"
+    "texto_escuro": "#0b4a1c",
+    "secundario": "#b9d3bf",
+    "linha": "#2a6b3c"
   },
-  "faixa_cores": ["#9b2c2c", "#c0612f", "#e8dcc5", "#6b7a4f", "#1f4e5a", "#ff6a1a"],
-  "fonte": "Montserrat"
+  "faixa_cores": [
+    "#ffc20e",
+    "#f7931e",
+    "#e53935",
+    "#e91e8c",
+    "#8e24aa",
+    "#1e5bd8",
+    "#00b5e2",
+    "#8bc34a"
+  ],
+  "fonte": "Montserrat",
+  "logo": ""
 }
