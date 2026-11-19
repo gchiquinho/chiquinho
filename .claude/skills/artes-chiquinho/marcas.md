@@ -26,11 +26,12 @@ Como usar: `edit-design` → `insert_fill` (ou `update_fill`) com o asset_id aci
 O plano é gratuito: **não há remoção de fundo nem Kit de Marca**, e os créditos de IA (`create-design`) são poucos. Prefira copiar um modelo aprovado (`copy-design`) e editar.
 
 ### Fotos de produto
-Os nomes seguem o padrão `produto-<loja>-<produto>`. Fotos com fundo branco: remova o fundo localmente (script em Python/PIL, flood fill a partir das bordas), devolva o PNG ao usuário e peça que ele suba no Canva.
+As fotos ficam em **Uploads** (`list-folder-items` com `folder_id: "uploads"`, mais recentes primeiro). Os nomes seguem o padrão `produto-<loja>-<produto>`. Fotos com fundo branco: remova o fundo localmente (script em Python/PIL, flood fill a partir das bordas), devolva o PNG ao usuário e peça que ele suba no Canva.
 
 | Produto | Asset ID | Obs. |
 |---|---|---|
-| Laca nitrocelulose Farben preto semibrilho 3,6 L | `MAHbZNiRrfg` | fundo branco, 446 px |
+| Laca nitrocelulose Farben preto semibrilho 3,6 L | `MAHbZEDhnas` | **sem fundo (PNG)** — usar esta |
+| Laca nitrocelulose Farben 3,6 L (original) | `MAHbZNiRrfg` | fundo branco, 446 px |
 
 ## Regras
 
