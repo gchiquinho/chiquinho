@@ -11,6 +11,18 @@ Cores tiradas das logos oficiais que o Luiz enviou em 19/11/2026. Os códigos he
 | **CooperTintas** (`coopertintas`) | "Cooper" branco, grande e arredondado, com "TINTAS" embaixo e um **leque/roda de cores** (amarelo, laranja, vermelho, magenta, roxo, azul, verde) | Azul-marinho `#0A2478`, branco, cores do leque | Sans arredondada e grossa (estilo Nunito Black / Fredoka) | Cooperativa, confiança, variedade de cores |
 | **Leve Tintas** (`leve-tintas`) | Círculo vermelho com "Leve" e faixa azul com "Tintas" em branco com contorno preto, pincel pintando de vermelho. Slogan: **"A garantia de levar o melhor!"** | Laranja vibrante `#FF8A00` (fundo com raios), vermelho `#D71920`, azul `#1E88D8`, branco, contorno preto | Display divertida, com contorno (estilo cartoon) | Popular, alegre, oferta |
 
+## Padrão visual do grupo (aprovado pelo Luiz em 19/11/2026)
+
+**Referência:** as artes de Natal da Chiquinho Tintas no Canva. O carrossel "Quanto de tinta" (`DAHbY55qq7E`) e o carrossel de acabamentos (`DAHbY4ksp1A`) são o padrão para **todas as lojas**. O que muda de uma loja para outra é só a cor da marca, o símbolo e a logo.
+
+- Fundo claro off-white em parte da arte e uma grande **onda/faixa curva na cor da marca**.
+- Tipografia sans-serif geométrica grossa (estilo Montserrat/Poppins), sem itálico exagerado.
+- Cartões arredondados com ícones simples, número grande nos passos e rodapé numa faixa da cor da marca com `@instagram · cidade`.
+- O **símbolo da logo** vira elemento decorativo: o redemoinho arco-íris (Tintas), pinceladas laranja de velocidade (Auto Peças), o leque de cores (CooperTintas), o pincel vermelho (Leve Tintas).
+- Visual limpo e premium. **Não usar**: raios neon, luzes "gamer", logo redesenhada pela IA.
+- Datas comemorativas aparecem só como detalhe (estrelinhas, luzinhas).
+- No `create-design`, passe em `references` o design-padrão, o asset da logo oficial e o asset da foto do produto.
+
 ## Logos no Canva (conta do Luiz, plano gratuito)
 
 | Loja | Asset ID no Canva | Arquivo original |
