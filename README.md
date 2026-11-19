@@ -7,6 +7,7 @@ São duas partes:
 | Parte | O que faz |
 |---|---|
 | `.claude/agents/estrategista-campanhas.md` | Agente do Claude Code: conduz o briefing, escreve conceito criativo, copys, roteiros e interpreta os números. |
+| `.claude/skills/artes-chiquinho/` | Skill que gera as artes (carrossel, oferta, paleta, story, WhatsApp) com a identidade da loja. |
 | `agente-campanhas/campanhas/` | Motor em Python (só biblioteca padrão) que calcula métricas e gera o esqueleto do plano. |
 
 ## Como usar o agente

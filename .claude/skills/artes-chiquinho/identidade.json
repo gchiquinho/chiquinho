@@ -1,0 +1,19 @@
+{
+  "loja": "Chiquinho Tintas e Acabamentos",
+  "instagram": "@chiquinho.tintas",
+  "cidade": "Ituverava",
+  "whatsapp": "",
+  "endereco": "",
+  "cores": {
+    "fundo": "#1d1d1f",
+    "fundo_claro": "#f6f3ee",
+    "caixa": "#2a2a2d",
+    "destaque": "#ff6a1a",
+    "texto": "#ffffff",
+    "texto_escuro": "#1d1d1f",
+    "secundario": "#a1a1a6",
+    "linha": "#3a3a3d"
+  },
+  "faixa_cores": ["#9b2c2c", "#c0612f", "#e8dcc5", "#6b7a4f", "#1f4e5a", "#ff6a1a"],
+  "fonte": "Montserrat"
+}

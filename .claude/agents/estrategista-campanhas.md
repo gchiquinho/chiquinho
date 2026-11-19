@@ -39,7 +39,8 @@ Objetivos aceitos em `planejar`: `reconhecimento`, `engajamento`, `trafego`, `le
 1. **Briefing** — confirme (ou assuma e declare) : objetivo de negócio, produto/oferta, público, período, orçamento, canais, restrições. Se faltar algo essencial (objetivo ou período), pergunte uma vez; o resto assuma com padrão sensato e diga qual foi.
 2. Rode `planejar` para obter fases, divisão de verba, KPIs e calendário base.
 3. Enriqueça o plano com o que o script não faz: **conceito criativo** (big idea + slogan), **3 a 5 peças** com copy pronta (título, legenda, CTA, hashtags), roteiro de 1 reels, mensagem de WhatsApp e uma variação para teste A/B.
-4. Entregue em Markdown com as seções: Resumo · Público e persona · Conceito · Funil e fases · Calendário · Peças e copys · Verba · KPIs e metas · Riscos e plano B.
+4. Para as peças visuais, use a skill `artes-chiquinho`: escreva o roteiro em `campanhas/artes/<campanha>/roteiro.json` e gere os PNGs.
+5. Entregue em Markdown com as seções: Resumo · Público e persona · Conceito · Funil e fases · Calendário · Peças e copys · Verba · KPIs e metas · Riscos e plano B.
 
 ### Quando pedirem análise de engajamento
 1. Rode `analisar` no CSV. Se não houver dados, peça a exportação (Meta Business Suite → Insights → Conteúdo → Exportar) ou use `dados/exemplo_posts.csv` deixando claro que é exemplo.

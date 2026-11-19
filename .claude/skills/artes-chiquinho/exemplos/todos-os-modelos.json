@@ -1,0 +1,19 @@
+{
+  "campanha": "demonstração de todos os modelos",
+  "saida": "/tmp/claude-0/-home-user/96c279c8-4065-5996-935c-6d8d00934541/scratchpad/demo-artes",
+  "artes": [
+    {"nome": "demo-capa", "modelo": "capa", "dados": {"etiqueta": "DICA DE PINTURA", "titulo": "5 passos para preparar a <span class='hl'>parede</span>", "subtitulo": "Pintura que dura mais começa antes da tinta."}},
+    {"nome": "demo-passo", "modelo": "passo", "dados": {"numero": "1", "titulo": "Lixe a superfície", "texto": "Use lixa 150 a 220 e tire todo o pó com pano úmido.", "destaque": "Parede lisa = <span class='hl'>acabamento perfeito</span>", "pagina": "2/7"}},
+    {"nome": "demo-oferta", "modelo": "oferta", "dados": {"etiqueta": "PINTE ATÉ O NATAL", "selo": "-[X]%", "produto": "Tinta acrílica 18 L", "preco_de": "[000,00]", "preco_por": "[000,00]", "cupom": "NATAL26", "validade": "Até 20/12", "condicoes": "[Condições: produtos participantes, limite por CPF]"}},
+    {"nome": "demo-oferta-brinde", "modelo": "oferta", "dados": {"etiqueta": "PINTE ATÉ O NATAL", "selo": "🎁", "produto": "Comprou 18 L, ganhou:", "beneficio": "Kit rolo + bandeja<br>+ fita crepe", "cupom": "NATAL26", "validade": "Até 20/12"}},
+    {"nome": "demo-paleta", "modelo": "paleta", "dados": {"etiqueta": "PALETA DE NATAL", "titulo": "Cores para receber a família", "cores": [
+      {"hex": "#6b7a4f", "nome": "[Nome da cor]", "codigo": "[código]"},
+      {"hex": "#c0612f", "nome": "[Nome da cor]", "codigo": "[código]"},
+      {"hex": "#e8dcc5", "nome": "[Nome da cor]", "codigo": "[código]"},
+      {"hex": "#1f4e5a", "nome": "[Nome da cor]", "codigo": "[código]"}]}},
+    {"nome": "demo-aviso", "modelo": "aviso", "dados": {"etiqueta": "BOAS FESTAS", "titulo": "Horário de fim de ano", "linhas": [["24/12", "[8h às 12h]"], ["25/12", "Fechado"], ["31/12", "[8h às 12h]"], ["01/01", "Fechado"]]}},
+    {"nome": "demo-story", "modelo": "story", "dados": {"etiqueta": "ENQUETE", "titulo": "Qual cômodo você pintaria <span class='hl'>pro Natal?</span>", "texto": "Responde aqui embaixo 👇", "chamada": "Responda este story"}},
+    {"nome": "demo-contagem", "modelo": "contagem", "dados": {"etiqueta": "PINTE ATÉ O NATAL", "numero": "3", "unidade": "dias", "titulo": "para o fim da oferta", "chamada": "Chama no WhatsApp 📲"}},
+    {"nome": "demo-whatsapp", "modelo": "whatsapp", "dados": {"etiqueta": "PINTE ATÉ O NATAL", "titulo": "Casa pronta para a ceia 🎄", "texto": "Oferta até 20/12 · cupom NATAL26"}}
+  ]
+}

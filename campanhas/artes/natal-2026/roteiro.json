@@ -1,0 +1,12 @@
+{
+  "campanha": "Natal 2026 — Chiquinho Tintas",
+  "formato": "feed_retrato",
+  "artes": [
+    {"nome": "p3-quanto-tinta-1", "modelo": "capa", "dados": {"etiqueta": "CASA PRONTA PARA O NATAL", "titulo": "Pare de comprar tinta <span class='hl'>a mais</span> (ou a menos)", "subtitulo": "Calcule a quantidade certa em 4 passos."}},
+    {"nome": "p3-quanto-tinta-2", "modelo": "passo", "dados": {"numero": "1", "titulo": "Meça as paredes", "texto": "Multiplique <b>largura × altura</b> de cada parede e some tudo.", "destaque": "Ex.: 4 m × 2,7 m = <span class='hl'>10,8 m²</span>", "pagina": "2/6"}},
+    {"nome": "p3-quanto-tinta-3", "modelo": "passo", "dados": {"numero": "2", "titulo": "Desconte portas e janelas", "texto": "Cada porta tem cerca de <b>1,6 m²</b>. Janelas: meça uma por uma.", "destaque": "Área total − portas − janelas = <span class='hl'>área a pintar</span>", "pagina": "3/6"}},
+    {"nome": "p3-quanto-tinta-4", "modelo": "passo", "dados": {"numero": "3", "titulo": "Conte as demãos", "texto": "Multiplique a área pelo número de demãos — normalmente <b>2 ou 3</b>.", "destaque": "Vai trocar para uma cor bem diferente? <span class='hl'>Conte uma demão a mais.</span>", "pagina": "4/6"}},
+    {"nome": "p3-quanto-tinta-5", "modelo": "passo", "dados": {"numero": "4", "titulo": "Divida pelo rendimento", "texto": "Use o <b>rendimento por demão</b> que vem escrito na lata.", "destaque": "Área × demãos ÷ rendimento = <span class='hl'>litros para comprar</span>", "pagina": "5/6"}},
+    {"nome": "p3-quanto-tinta-6", "modelo": "fechamento", "dados": {"etiqueta": "SEM FAZER CONTA", "titulo": "Manda as medidas <span class='hl'>no WhatsApp</span>", "texto": "A gente calcula pra você e prepara a cor na hora.", "destaque": "📌 Salve este post para a próxima pintura", "pagina": "6/6"}}
+  ]
+}
