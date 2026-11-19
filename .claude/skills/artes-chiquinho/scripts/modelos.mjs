@@ -196,7 +196,7 @@ p{font-size:44px;line-height:1.35;font-weight:500;margin-top:44px;color:#e8e8ea}
 .sp-produto{font-size:118px;margin-top:40px;font-style:italic;text-transform:uppercase;line-height:.95;letter-spacing:-2px}
 .sp-detalhe{font-size:46px;font-weight:700;color:${c.destaque};margin-top:18px;font-style:italic;text-transform:uppercase;letter-spacing:2px}
 .sp-meio{flex:1;display:flex;align-items:center;gap:40px;margin-top:30px}
-.sp-foto{width:430px;object-fit:contain}
+.sp-foto{width:400px;object-fit:contain;filter:drop-shadow(0 30px 40px rgba(0,0,0,.6)) drop-shadow(0 0 60px ${c.destaque}55)}
 .lata{width:360px;position:relative;filter:drop-shadow(0 30px 40px rgba(0,0,0,.6)) drop-shadow(0 0 60px ${c.destaque}55)}
 .lata .tampa{height:46px;border-radius:50%;background:linear-gradient(90deg,#777,#ddd 40%,#888);position:relative;z-index:2}
 .lata .corpo{height:420px;margin-top:-23px;border-radius:0 0 30px 30px / 0 0 22px 22px;background:linear-gradient(90deg,#000 0%,var(--lata) 18%,#555 32%,var(--lata) 48%,#000 100%);display:flex;align-items:center;justify-content:center}
