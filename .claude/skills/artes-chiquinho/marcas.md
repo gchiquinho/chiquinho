@@ -11,6 +11,27 @@ Cores tiradas das logos oficiais que o Luiz enviou em 19/11/2026. Os códigos he
 | **CooperTintas** (`coopertintas`) | "Cooper" branco, grande e arredondado, com "TINTAS" embaixo e um **leque/roda de cores** (amarelo, laranja, vermelho, magenta, roxo, azul, verde) | Azul-marinho `#0A2478`, branco, cores do leque | Sans arredondada e grossa (estilo Nunito Black / Fredoka) | Cooperativa, confiança, variedade de cores |
 | **Leve Tintas** (`leve-tintas`) | Círculo vermelho com "Leve" e faixa azul com "Tintas" em branco com contorno preto, pincel pintando de vermelho. Slogan: **"A garantia de levar o melhor!"** | Laranja vibrante `#FF8A00` (fundo com raios), vermelho `#D71920`, azul `#1E88D8`, branco, contorno preto | Display divertida, com contorno (estilo cartoon) | Popular, alegre, oferta |
 
+## Logos no Canva (conta do Luiz, plano gratuito)
+
+| Loja | Asset ID no Canva | Arquivo original |
+|---|---|---|
+| Chiquinho Tintas | `MAHbY6TfRk0` | 1254×1254, fundo verde |
+| Chiquinho Auto Peças | `MAHbY4-Rwak` | 900×1600, fundo grafite |
+| CooperTintas | `MAHbYyBsawk` | 900×1600, fundo azul |
+| Leve Tintas | `MAHbYy6FWag` | 900×1600, fundo laranja |
+
+O design "logo todas loja" (`DAHbY2YuOrU`) tem as 4 logos, uma por página.
+
+Como usar: `edit-design` → `insert_fill` (ou `update_fill`) com o asset_id acima. As logos vêm **com fundo**, então ponha a logo sobre a cor da própria marca ou recorte numa área da mesma cor.
+O plano é gratuito: **não há remoção de fundo nem Kit de Marca**, e os créditos de IA (`create-design`) são poucos. Prefira copiar um modelo aprovado (`copy-design`) e editar.
+
+### Fotos de produto
+Os nomes seguem o padrão `produto-<loja>-<produto>`. Fotos com fundo branco: remova o fundo localmente (script em Python/PIL, flood fill a partir das bordas), devolva o PNG ao usuário e peça que ele suba no Canva.
+
+| Produto | Asset ID | Obs. |
+|---|---|---|
+| Laca nitrocelulose Farben preto semibrilho 3,6 L | `MAHbZNiRrfg` | fundo branco, 446 px |
+
 ## Regras
 
 - Em cada arte, use **a logo e as cores da loja que está publicando**. Não misture identidades, a não ser em peças institucionais do grupo.
