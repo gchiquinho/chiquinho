@@ -85,6 +85,20 @@ Os stories são diários (enquetes, bastidores e produtos). A tabela traz só os
 
 ## 7. Peças e textos
 
+### Artes no Canva
+
+| Peça | Data | Status | Link |
+|---|---|---|---|
+| P3 Carrossel "Quanto de tinta eu preciso?" (6 slides) | 06/12 | ✅ pronto (falta a logo no topo da capa) | https://canva.link/0u5s11v370ga0tf |
+| Enquete "Qual cômodo você pintaria para o Natal?" | 03/12 | ✅ pronto (espaço da logo no topo) | https://canva.link/2er1vcjx2n9sfil |
+| Carrossel "Fosco, acetinado ou semibrilho?" (5 slides) | 11/12 | ✅ pronto | https://canva.link/s97t1a2vqq0jjed |
+| Carrossel "Retoques rápidos antes da ceia" | 21/12 | ⏳ aguardando créditos de IA do Canva | — |
+| Post Feliz Natal | 24/12 | ⏳ aguardando créditos de IA do Canva | — |
+| Post Feliz 2027 | 31/12 | ⏳ aguardando créditos de IA do Canva | — |
+| P4 Oferta, P5 Contagem, W1–W3 | 07–20/12 | ⏸️ aguardando definição da oferta | — |
+| P2 Paleta de cores | 02/12 | ⏸️ aguardando nomes e códigos das cores | — |
+| Aviso de horário de fim de ano | 23/12 | ⏸️ aguardando horários | — |
+
 ### P1 — Reels "Sala pronta para o Natal" (01/12)
 **Roteiro (até 20 s):**
 1. **0–2 s (gancho):** sala com parede manchada + texto na tela: *"Faltam 24 dias pra ceia e sua sala tá assim?"*
@@ -110,7 +124,6 @@ Os stories são diários (enquetes, bastidores e produtos). A tabela traz só os
 > Salva o post para levar na loja 📌
 
 ### P3 — Carrossel "Quanto de tinta eu preciso?" (06/12)
-**Arte no Canva (identidade verde da marca):** https://canva.link/0u5s11v370ga0tf — falta inserir a logo no topo da capa.
 - **Capa:** "Pare de comprar tinta a mais (ou a menos)"
 - **Lâmina 2:** meça a largura × altura de cada parede e some tudo.
 - **Lâmina 3:** desconte portas (~1,6 m² cada) e janelas (meça cada uma).
