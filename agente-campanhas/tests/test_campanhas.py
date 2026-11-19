@@ -67,6 +67,13 @@ class TestPlanejamento(unittest.TestCase):
             if item["canal"] == "whatsapp":
                 self.assertNotIn("Reels", item["formato"])
 
+    def test_google_fora_do_calendario_e_sem_post_no_natal(self):
+        b = Briefing("Natal", "conversao", 1000, 31, ["instagram", "google"], inicio=date(2026, 12, 1), posts_semana=7)
+        p = planejar(b)
+        self.assertNotIn("google", {c["canal"] for c in p["calendario"]})
+        self.assertNotIn(date(2026, 12, 25), {c["data"] for c in p["calendario"]})
+        self.assertEqual(p["sempre_ativos"], ["google"])
+
     def test_objetivo_invalido(self):
         with self.assertRaises(ValueError):
             planejar(Briefing("x", "viralizar", 0, 10, ["instagram"]))

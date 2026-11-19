@@ -125,6 +125,9 @@ def relatorio_plano(plano: dict) -> str:
     for item in plano["calendario"]:
         out.append(f"| {item['data']:%d/%m} | {dias[item['data'].weekday()]} | {item['fase']} | {item['canal']} "
                    f"| {item['formato']} | _a definir_ |")
+    for canal in plano.get("sempre_ativos", []):
+        out += ["", f"> **{canal}:** roda o período inteiro como anúncio de pesquisa sempre ativo e Perfil da Empresa "
+                "atualizado (horários de feriado, fotos, ofertas) — por isso não aparece no calendário de posts."]
     out += ["", "## Rotina de acompanhamento", "",
             "- **Diário:** responder comentários e directs em até 1h; acompanhar gasto dos anúncios.",
             "- **A cada 3 dias:** pausar anúncios com CTR < 0,8% e realocar para os melhores.",

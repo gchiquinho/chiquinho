@@ -23,7 +23,7 @@ python -m campanhas analisar dados/exemplo_posts.csv --saida relatorio.md
 # Gerar plano de campanha
 python -m campanhas planejar --nome "Black Friday" --objetivo conversao \
   --orcamento 5000 --dias 21 --canais instagram,facebook,whatsapp \
-  --publico "Pintores e donos de casa, 25-55, região de Franca" --saida plano.md
+  --publico "Pintores e donos de casa, 25-55, região da loja" --saida plano.md
 ```
 
 Formato do CSV (cabeçalho obrigatório; colunas extras são ignoradas):

@@ -181,6 +181,11 @@ PAPEL_CANAL = {
     "youtube": "Vídeos tutoriais de longa duração e shorts.",
 }
 
+CANAIS_BUSCA = ("google",)
+
+# Feriados em que não se agenda post (loja fechada, público offline)
+DIAS_SEM_POST = {(12, 25), (1, 1)}
+
 # Datas sazonais fixas do varejo brasileiro (mês, dia, nome)
 DATAS_SAZONAIS = [
     (3, 8, "Dia da Mulher"), (3, 15, "Dia do Consumidor"), (6, 12, "Dia dos Namorados"),
@@ -261,11 +266,13 @@ def planejar(b: Briefing) -> dict:
     semana_padrao = dias_post[max(1, min(7, b.posts_semana))]
     # Canais de mensagem (WhatsApp/e-mail) não recebem reels/carrossel: entram só na oferta
     mensageria = [c for c in canais if c in ("whatsapp", "email")]
-    sociais = [c for c in canais if c not in mensageria] or canais
+    # Canais de busca (Google) rodam como anúncio "sempre ativo", fora do calendário de posts
+    busca = [c for c in canais if c in CANAIS_BUSCA]
+    sociais = [c for c in canais if c not in mensageria + busca] or canais
     calendario = []
     dia = inicio
     while dia <= fim:
-        if dia.weekday() in semana_padrao:
+        if dia.weekday() in semana_padrao and (dia.month, dia.day) not in DIAS_SEM_POST:
             fase = next(f for f in fases if f["inicio"] <= dia <= f["fim"])
             formatos = [f for f in fase["formatos"] if f != "Mensagem no WhatsApp" or "whatsapp" in canais]
             n_fase = len([c for c in calendario if c["fase"] == fase["nome"]])
@@ -288,4 +295,5 @@ def planejar(b: Briefing) -> dict:
         "reserva": b.orcamento * 0.15, "calendario": calendario,
         "datas": datas_no_periodo(inicio, fim),
         "papeis": {c: PAPEL_CANAL.get(c, "Canal complementar.") for c in canais},
+        "sempre_ativos": busca,
     }
