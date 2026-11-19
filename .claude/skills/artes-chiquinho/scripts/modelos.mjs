@@ -94,6 +94,28 @@ export const MODELOS = {
     ${d.chamada ? `<div class="story-chamada">${d.chamada}</div>` : ""}
     <div class="story-marca">${id.instagram}</div>`,
 
+
+  /** Story de produto com preço: etiqueta, produto, detalhe, embalagem, preco, por_litro, chamada, validade.
+   *  Lata desenhada em CSS (cor_lata, cor_rotulo) quando não houver foto; use `foto` (URL/caminho) se tiver. */
+  story_produto: (d, id) => `
+    <div class="sp">
+      ${d.etiqueta ? `<span class="etiqueta">${esc(d.etiqueta)}</span>` : ""}
+      <h1 class="sp-produto">${esc(d.produto)}</h1>
+      ${d.detalhe ? `<div class="sp-detalhe">${esc(d.detalhe)}</div>` : ""}
+      <div class="sp-meio">
+        ${d.foto ? `<img class="sp-foto" src="${esc(d.foto)}">` : `<div class="lata" style="--lata:${esc(d.cor_lata || "#111")};--rot:${esc(d.cor_rotulo || id.cores.destaque)}">
+          <div class="tampa"></div><div class="corpo"><div class="rot">${esc(d.rotulo || "")}</div></div></div>`}
+        <div class="sp-preco">
+          ${d.embalagem ? `<div class="sp-emb">${esc(d.embalagem)}</div>` : ""}
+          <div class="sp-valor"><small>R$</small>${esc(d.preco)}</div>
+          ${d.por_litro ? `<div class="sp-litro">${d.por_litro}</div>` : ""}
+        </div>
+      </div>
+      ${d.validade ? `<div class="sp-validade">${esc(d.validade)}</div>` : ""}
+    </div>
+    ${d.chamada ? `<div class="story-chamada">${d.chamada}</div>` : ""}
+    <div class="story-marca">${esc(id.assinatura || id.instagram)}</div>`,
+
   /** Aviso/mensagem (horário de feriado, boas festas): etiqueta, titulo, linhas: [[rótulo, valor]], texto */
   aviso: (d, id) => `
     <span class="etiqueta">${esc(d.etiqueta || "AVISO")}</span>
@@ -166,6 +188,25 @@ p{font-size:44px;line-height:1.35;font-weight:500;margin-top:44px;color:#e8e8ea}
   font-size:48px;font-weight:900;padding:36px;border-radius:20px}
 .story-marca{position:absolute;left:0;right:0;bottom:260px;text-align:center;font-size:28px;color:${c.secundario};transform:translateY(130px)}
 .gigante{font-size:420px;margin-top:20px}.unidade{font-size:70px;font-weight:900;margin-top:-20px}
+/* story de produto */
+.r.metal{background:radial-gradient(ellipse at 50% 38%,#4a4a4d 0%,#2a2a2c 45%,#141415 100%)}
+.r.metal::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(255,255,255,.035) 0 2px,transparent 2px 5px)}
+.sp{position:absolute;left:90px;right:90px;top:250px;bottom:420px;display:flex;flex-direction:column}
+.sp .etiqueta{align-self:flex-start}
+.sp-produto{font-size:118px;margin-top:40px;font-style:italic;text-transform:uppercase;line-height:.95;letter-spacing:-2px}
+.sp-detalhe{font-size:46px;font-weight:700;color:${c.destaque};margin-top:18px;font-style:italic;text-transform:uppercase;letter-spacing:2px}
+.sp-meio{flex:1;display:flex;align-items:center;gap:40px;margin-top:30px}
+.sp-foto{width:430px;object-fit:contain}
+.lata{width:360px;position:relative;filter:drop-shadow(0 30px 40px rgba(0,0,0,.6)) drop-shadow(0 0 60px ${c.destaque}55)}
+.lata .tampa{height:46px;border-radius:50%;background:linear-gradient(90deg,#777,#ddd 40%,#888);position:relative;z-index:2}
+.lata .corpo{height:420px;margin-top:-23px;border-radius:0 0 30px 30px / 0 0 22px 22px;background:linear-gradient(90deg,#000 0%,var(--lata) 18%,#555 32%,var(--lata) 48%,#000 100%);display:flex;align-items:center;justify-content:center}
+.lata .rot{width:100%;background:var(--rot);color:#111;font-weight:900;font-style:italic;font-size:52px;text-align:center;padding:26px 10px;text-transform:uppercase;line-height:1}
+.sp-preco{flex:1}
+.sp-emb{font-size:40px;font-weight:700;color:${c.secundario};text-transform:uppercase}
+.sp-valor{font-size:126px;font-weight:900;font-style:italic;color:${c.texto};line-height:1;letter-spacing:-4px;margin-top:6px}
+.sp-valor small{font-size:56px;color:${c.destaque};margin-right:8px;letter-spacing:0}
+.sp-litro{margin-top:26px;background:${c.destaque};color:#111;font-size:38px;font-weight:800;padding:18px 24px;border-radius:14px;line-height:1.2}
+.sp-validade{font-size:32px;color:${c.secundario};margin-top:20px}
 /* aviso */
 .tabela{margin-top:50px;display:flex;flex-direction:column;gap:18px}
 .tabela div{display:flex;justify-content:space-between;background:${c.caixa};border-radius:12px;padding:26px 36px;font-size:42px}

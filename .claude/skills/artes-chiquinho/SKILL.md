@@ -88,6 +88,7 @@ Rode com `--so-html`: o script grava só os `.html`. Passe o conteúdo de cada u
 | `paleta` | 3 a 6 cores | `etiqueta`, `titulo`, `cores: [{hex, nome, codigo}]` |
 | `aviso` | Horário de feriado, comunicado | `etiqueta`, `titulo`, `texto`, `linhas: [["24/12","8h às 12h"], ...]` |
 | `story` | Story de mensagem única | `etiqueta`, `titulo`, `texto`, `chamada` (botão no rodapé) |
+| `story_produto` | Story de produto com preço (Auto Peças: `tema: "metal"`) | `etiqueta`, `produto`, `detalhe`, `rotulo`, `cor_lata`, `embalagem`, `preco`, `por_litro`, `chamada`, `foto` (opcional; sem foto, desenha uma lata) |
 | `contagem` | Story de contagem regressiva | `etiqueta`, `numero`, `unidade`, `titulo`, `chamada` |
 | `antes_depois` | Comparação | `antes`, `depois` (URL https ou caminho de foto local), `titulo` |
 | `whatsapp` | Cabeçalho da mensagem modelo | `etiqueta`, `titulo`, `texto` |
@@ -95,6 +96,7 @@ Rode com `--so-html`: o script grava só os `.html`. Passe o conteúdo de cada u
 ## Regras de conteúdo
 
 - **Nunca inventar** preço, desconto, validade, nome ou código de cor, horário, telefone ou endereço. Sem o dado, deixe `[colchetes]` e pergunte ao usuário.
+- **Confira a conta do preço por litro/unidade** (preço ÷ volume) antes de publicar. Se o valor informado não bater, avise o usuário.
 - Toda oferta mostra validade e "enquanto durar o estoque" (o modelo já põe) e as condições quando houver.
 - Fotos: só da loja ou enviadas pelo usuário. Nada de foto de pessoas da internet nem logo de fabricante sem o arquivo oficial.
 - Máx. ~25 palavras por slide; título de até ~8 palavras. Se o aviso de texto grande aparecer, corte palavras.

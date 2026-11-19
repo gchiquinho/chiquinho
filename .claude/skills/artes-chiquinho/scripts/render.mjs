@@ -51,7 +51,7 @@ try {
     if (so && !so.includes(arte.nome)) continue;
     const modelo = MODELOS[arte.modelo];
     if (!modelo) throw new Error(`${arte.nome}: modelo "${arte.modelo}" não existe (${Object.keys(MODELOS).join(", ")})`);
-    const formato = arte.formato || (["story", "contagem"].includes(arte.modelo) ? "story" : arte.modelo === "whatsapp" ? "whatsapp_cabecalho" : roteiro.formato || "feed_retrato");
+    const formato = arte.formato || (["story", "contagem", "story_produto"].includes(arte.modelo) ? "story" : arte.modelo === "whatsapp" ? "whatsapp_cabecalho" : roteiro.formato || "feed_retrato");
     const [w, h] = FORMATOS[formato] || [];
     if (!w) throw new Error(`${arte.nome}: formato "${formato}" inválido`);
 
@@ -59,7 +59,7 @@ try {
     const textoBruto = JSON.stringify(dados);
     if (/\[[^\]]*\]/.test(textoBruto)) avisos.push(`${arte.nome}: tem campo entre [colchetes] não preenchido`);
 
-    const classes = ["r", arte.tema === "claro" ? "claro" : "", arte.modelo === "whatsapp" ? "wa-r" : ""].join(" ");
+    const classes = ["r", arte.tema === "claro" ? "claro" : arte.tema === "metal" ? "metal" : "", arte.modelo === "whatsapp" ? "wa-r" : ""].join(" ");
     const html = `<!doctype html><html><head><meta charset="utf-8">${fonte}<style>${css(id, w, h)}</style></head>
 <body><div class="${classes}">${modelo(dados, id)}</div></body></html>`;
 
@@ -80,7 +80,7 @@ try {
       const limite = (document.querySelector(".base") || document.querySelector(".rodape") || document.querySelector(".story-chamada"))
         ?.getBoundingClientRect().top ?? r.clientHeight;
       return [...r.querySelectorAll("h1,h2,p:not(.condicoes),.caixa,.paleta,.tabela,.precos,.cupom")]
-        .filter((el) => !el.closest(".story-centro") || el.getBoundingClientRect().bottom > r.clientHeight - 250)
+        .filter((el) => !el.closest(".story-centro, .sp") || el.getBoundingClientRect().bottom > r.clientHeight - 250)
         .some((el) => el.getBoundingClientRect().bottom > limite - 10 || el.scrollWidth > el.clientWidth + 2);
     });
     if (invade) avisos.push(`${arte.nome}: texto grande demais — invade o rodapé ou a faixa; encurte o texto`);

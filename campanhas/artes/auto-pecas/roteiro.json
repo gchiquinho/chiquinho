@@ -1,0 +1,25 @@
+{
+  "campanha": "Chiquinho Auto Peças — story de produto",
+  "identidade": {
+    "loja": "Chiquinho Auto Peças",
+    "instagram": "",
+    "assinatura": "CHIQUINHO AUTO PEÇAS · ITUVERAVA",
+    "cidade": "Ituverava",
+    "fonte": "Exo 2",
+    "cores": {"fundo": "#1c1c1e", "caixa": "#2c2c2e", "destaque": "#f39200", "texto": "#ffffff", "texto_escuro": "#111111", "secundario": "#b8b8bc", "linha": "#3a3a3c"},
+    "faixa_cores": ["#f39200", "#ffb347", "#3a3a3c"]
+  },
+  "artes": [
+    {"nome": "story-laca-preta-semibrilho", "modelo": "story_produto", "tema": "metal", "dados": {
+      "etiqueta": "LINHA AUTOMOTIVA",
+      "produto": "Preto semibrilho",
+      "detalhe": "Laca nitrocelulose (Duco)",
+      "rotulo": "PRETO<br>SEMIBRILHO",
+      "cor_lata": "#1a1a1a",
+      "embalagem": "Galão 3,6 L",
+      "preco": "208,80",
+      "por_litro": "O litro sai por <b>R$ 58,00</b>",
+      "chamada": "Garanta o seu no WhatsApp"
+    }}
+  ]
+}
