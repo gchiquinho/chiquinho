@@ -32,6 +32,8 @@ Cores tiradas das logos oficiais que o Luiz enviou em 19/11/2026. Os códigos he
 | CooperTintas | `MAHbYyBsawk` | 900×1600, fundo azul |
 | Leve Tintas | `MAHbYy6FWag` | 900×1600, fundo laranja |
 
+Recorte a logo (os arquivos são verticais, com fundo da cor da marca) num quadro de ~620×270 no topo, para mostrar só a área da logo.
+
 O design "logo todas loja" (`DAHbY2YuOrU`) tem as 4 logos, uma por página.
 
 Como usar: `edit-design` → `insert_fill` (ou `update_fill`) com o asset_id acima. As logos vêm **com fundo**, então ponha a logo sobre a cor da própria marca ou recorte numa área da mesma cor.
