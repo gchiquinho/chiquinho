@@ -70,6 +70,7 @@
 | A8 Carrossel "Checklist antes de viajar" (4) | 17/12 | https://canva.link/sxr77ceh7hl57gg | Logo oficial, aguardando aprovação |
 | A9 Feliz Natal | 24/12 | https://canva.link/vma9a11igmyj2dc | Logo oficial, aguardando aprovação |
 | A10 Feliz 2027 | 30/12 | https://canva.link/fekprwkvgr934ym | Logo oficial, aguardando aprovação |
+| Status WhatsApp dos vendedores: "Me manda a placa do seu carro" | contínuo | https://canva.link/v3gnoqvc2j2subk | Logo oficial, aguardando aprovação. Texto sugerido para acompanhar: "Pintou um risco ou vai retocar? Me manda a placa que eu acho a cor certinha 🚗🎨" |
 | A1/A2 Black Friday, W1/W2, kit | — | — | ⏸️ aguardando produtos, preços e condições |
 
 ## 6. Textos principais
