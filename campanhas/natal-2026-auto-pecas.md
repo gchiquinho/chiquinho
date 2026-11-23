@@ -60,7 +60,18 @@
 
 > Stories quase todo dia: produto da semana, bastidores do balcão e enquete "Qual cor você pintaria seu carro?".
 
-## 5. Textos principais
+## 5. Artes no Canva
+
+| Peça | Data | Link | Status |
+|---|---|---|---|
+| Story laca preto semibrilho | 24/11 | https://canva.link/v4ruvptj5gehfvx | Logo oficial, aguardando aprovação |
+| A4 Carrossel "Laca, PU ou poliéster?" (5) | 03/12 | https://canva.link/skegjvznlebmjoo | Logos oficiais + "poliéster" corrigido, aguardando aprovação |
+| A8 Carrossel "Checklist antes de viajar" (4) | 17/12 | https://canva.link/sxr77ceh7hl57gg | Logo oficial, aguardando aprovação |
+| A9 Feliz Natal | 24/12 | https://canva.link/vma9a11igmyj2dc | Logo oficial, aguardando aprovação |
+| A10 Feliz 2027 | 30/12 | https://canva.link/fekprwkvgr934ym | Logo oficial, aguardando aprovação |
+| A1/A2 Black Friday, W1/W2, kit | — | — | ⏸️ aguardando produtos, preços e condições |
+
+## 6. Textos principais
 
 ### A2: Post de oferta (27/11)
 > 🏁 **BLACK FRIDAY AUTOMOTIVA**
@@ -96,7 +107,7 @@ Chamada: *"Tem tudo isso aqui na loja. Passa antes de pegar a estrada."*
 > Separa pra você retirar hoje mesmo?
 > _Responda SAIR para não receber mais._
 
-## 6. Google Ads (saldo parado)
+## 7. Google Ads (saldo parado)
 
 Campanha de **Pesquisa** num raio de ~20 km de Ituverava, durante todo o período:
 - **Palavras-chave:** `tinta automotiva ituverava`, `laca automotiva`, `tinta pu automotiva`, `verniz automotivo`, `massa poliéster`, `polidor automotivo`, `auto peças ituverava`, `loja de tinta automotiva perto de mim`
@@ -104,7 +115,7 @@ Campanha de **Pesquisa** num raio de ~20 km de Ituverava, durante todo o períod
 - **Anúncio:** *Tinta Automotiva em Ituverava* · *Laca, PU, Verniz e Massa* · *Cor Acertada pela Placa*. Descrição: *Estoque garantido para oficinas e retoques. Chame no WhatsApp e retire hoje.*
 - **Medir:** ligações, cliques em rotas e cliques no WhatsApp.
 
-## 7. Como medir
+## 8. Como medir
 
 | KPI | Como medir | Meta |
 |---|---|---|
@@ -115,7 +126,7 @@ Campanha de **Pesquisa** num raio de ~20 km de Ituverava, durante todo o períod
 
 No caixa: perguntar "Como ficou sabendo?".
 
-## 8. Checklist
+## 9. Checklist
 
 - [ ] Definir os produtos e preços da Black Friday (A2) e do kit (W2)
 - [ ] Definir a condição para oficinas e profissionais (W1)
