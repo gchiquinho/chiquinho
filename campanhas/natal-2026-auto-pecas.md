@@ -64,7 +64,8 @@
 
 | Peça | Data | Link | Status |
 |---|---|---|---|
-| Story laca preto semibrilho | 24/11 | https://canva.link/v4ruvptj5gehfvx | Logo oficial, aguardando aprovação |
+| Story enquete "Vai pegar a estrada no fim de ano?" | 23/11 | https://canva.link/gw1xm0at5pk4hv0 | Logo oficial, aguardando aprovação |
+| Story laca preto semibrilho | 23/11 | https://canva.link/v4ruvptj5gehfvx | Logo oficial, aguardando aprovação |
 | A4 Carrossel "Laca, PU ou poliéster?" (5) | 03/12 | https://canva.link/skegjvznlebmjoo | Logos oficiais + "poliéster" corrigido, aguardando aprovação |
 | A8 Carrossel "Checklist antes de viajar" (4) | 17/12 | https://canva.link/sxr77ceh7hl57gg | Logo oficial, aguardando aprovação |
 | A9 Feliz Natal | 24/12 | https://canva.link/vma9a11igmyj2dc | Logo oficial, aguardando aprovação |
