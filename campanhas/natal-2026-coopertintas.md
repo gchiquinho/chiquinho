@@ -1,6 +1,7 @@
 # 🎄 Campanha de Natal 2026 — CooperTintas
 
-> **Status:** pronta para gerar no Canva, aguardando os créditos de IA.
+> **Status:** em produção no Canva (plano renovado em 23/11/2026).
+> Dica: o `create-design` falhou 2× com erro interno quando o design de referência ia em `references`; funcionou passando só a logo e descrevendo o padrão no texto.
 > **Padrão visual:** o mesmo das artes de Natal da Chiquinho Tintas (ver `.claude/skills/artes-chiquinho/marcas.md`), com a identidade da CooperTintas.
 > **A confirmar:** a cidade do rodapé (`Guará`?) e o @ do Instagram da loja.
 
@@ -20,7 +21,7 @@
 |---|---|---|---|---|
 | C1 | Enquete "Qual cômodo você pintaria para o Natal?" | 03/12 | Post | ⏳ créditos |
 | C2 | Carrossel "Quanto de tinta eu preciso?" (6) | 06/12 | Carrossel | ⏳ créditos |
-| C3 | Carrossel "Fosco, acetinado ou semibrilho?" (5) | 11/12 | Carrossel | ⏳ créditos |
+| C3 | Carrossel "Fosco, acetinado ou semibrilho?" (5) | 11/12 | Carrossel | ✅ Canva: https://canva.link/njb0fk339b8a3rb (logo oficial na capa, aguardando aprovação para salvar) |
 | C4 | Carrossel "Retoques rápidos antes da ceia" (5) | 21/12 | Carrossel | ⏳ créditos |
 | C5 | Feliz Natal | 24/12 | Post | ⏳ créditos |
 | C6 | Feliz 2027 | 31/12 | Post | ⏳ créditos |
